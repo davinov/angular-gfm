@@ -25,8 +25,8 @@ Option  | Type  | Description
 repo    | string| [user/org]/[repo-name]
 show-title| bool  | show or hide panel title
 
-# Example
+## Example
 See docs/angular-gfm.html (require `bower install`)
 
-# Build the package
+## Build the package
 `npm install` and `npm run build`
