@@ -1,0 +1,31 @@
+{
+  "name": "my-way.angular-gfm",
+  "version": "0.1.0",
+  "homepage": "https://github.com/my-way/angular-gfm",
+  "authors": [
+    "David Nowinsky <david@nowinsky.net>"
+  ],
+  "description": "GitHub Flavored Markdown rendering in angular apps",
+  "main": "dist/mw.angular-gfm-tpls.js",
+  "keywords": [
+    "my-way",
+    "angular",
+    "github",
+    "markdown",
+    "gfm"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.2"
+  },
+  "devDependencies": {
+    "bootstrap": ">=3.0"
+  }
+}

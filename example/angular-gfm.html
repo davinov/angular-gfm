@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+<head>
+    <title>MyWay - Angular GMF</title>
+    <meta name='viewport' content='initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+    <link rel='stylesheet' href='../bower_components/bootstrap/dist/css/bootstrap.css'>
+    <link rel='stylesheet' href='../dist/angular-gfm.css'>
+</head>
+<body>
+
+    <div class='container'>
+        <h1 class='page-header'>
+            angular-gmf
+            <small>&nbsp;GitHub Flavored Markdown rendering in angular apps</small>
+        </h1>
+
+        <p>Provide a directive to render repo readmes with GitHub Flavored Markdown using their API.</p>
+
+    <div github-readme repo='"my-way/angular-header-bar"' show-title='true'>
+    </div>
+
+        <pre>
+            <code>
+&lt;div github-readme repo='my-way/angular-header-bar' show-title='true'&gt;
+&lt;/div&gt;
+            </code>
+        </pre>
+
+        <footer>
+            Source code code on <a href='https://github.com/my-way/angular-gmf'>GitHub</a>.
+        </footer>
+    </div>
+
+    <script src='../bower_components/jquery/dist/jquery.js'></script>
+    <script src='../bower_components/angular/angular.js'></script>
+    <script src='../bower_components/bootstrap/dist/js/bootstrap.js'></script>
+    <script src='../dist/mw.angular-gfm-tpls.js'></script>
+    <script>
+        angular.module('app', ['mw.angular-gfm']);
+    </script>
+</body>
+</html>

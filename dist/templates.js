@@ -1,0 +1,1 @@
+angular.module("mw.angular-gfm").run(["$templateCache", function($templateCache) {$templateCache.put("jade/view.html","<div ng-show=\"showTitle\" class=\"title\">{{ repo }}\'s README</div><div ng-bind-html=\"content\" class=\"content\"></div>");}]);
