@@ -14,7 +14,7 @@ These directives can be used as class, attribute or element.
 <github-readme></github-readme>
 ````
 
-> The last one which is not IE8 compatible
+> The last one is not IE8 compatible
 
 ### Usage with less
 Import `dist/less/angular-gfm.less` in your less main file.
